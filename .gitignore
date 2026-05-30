@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.tsc-out/
+
+# Prisma
+/generated/prisma
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing
+.coverage/
+coverage/
+.nyc_output/
+
+# Temporary files
+.task.todo
+*.tmp
+.turbo/
+
+# AI
+.omx/
+
+# etc
+task.todo
+
+# docs
+docs/
+
+# uploads
+# Abaikan semua file di dalam folder public/uploads
+public/uploads/*
+
+# KECUALI file .gitkeep itu sendiri
+!public/uploads/.gitkeep
+
+/generated/prisma
+
+/generated/prisma
