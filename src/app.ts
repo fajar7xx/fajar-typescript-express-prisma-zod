@@ -9,7 +9,6 @@ import httpLogger from '@/utils/http-logger.js';
 const app: Express = express();
 
 // 1. security
-app.disable('x-powered-by');
 app.use(
   helmet({
     contentSecurityPolicy: false, // REST API tidak menyajikan HTML, tidak butuh csp
